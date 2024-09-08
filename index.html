@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Motus</title>
+    <!-- abaixo o import da font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container my-5">
+        <div class="d-flex justify-content-center align-items-center mb-4">
+            <img src="imagens/logo.png" alt="Logo" class="me-3" style="height: 150px;">
+            <h1 class="text-center">
+                Qual é o seu poema gaúcho? 
+            </h1>
+        </div>
+        
+        <h3>Responda o quiz e descubra!</h3>
+        <br>
+        <div id="quiz">
+            <div class="question-container mb-4">
+                <h2>Qual animal dos pampas é o seu favorito?</h2>
+                <div class="row">
+                    <div class="col-6 col-sm-4 mb-3">
+                        <div class="option card" data-correspondência="resiliencia">
+                            <img src="imagens/animais/tatu.jpg" class="card-img-top" alt="Tatu-mulita">
+                            <div class="card-body text-center">
+                                <p class="card-text">Tatu-mulita</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 mb-3">
+                        <div class="option card" data-correspondência="olhar">
+                            <img src="imagens/animais/cavalo-crioulo.jpg" class="card-img-top" alt="Cavalo-crioulo">
+                            <div class="card-body text-center">
+                                <p class="card-text">Cavalo Crioulo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 mb-3">
+                        <div class="option card" data-correspondência="natureza">
+                            <img src="imagens/animais/quero-quero.png" class="card-img-top" alt="Quero-quero">
+                            <div class="card-body text-center">
+                                <p class="card-text">Quero-quero</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 mb-3">
+                        <div class="option card" data-correspondência="tempo">
+                            <img src="imagens/animais/prea.jpg" class="card-img-top" alt="Preá">
+                            <div class="card-body text-center">
+                                <p class="card-text">Preá</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 mb-3">
+                        <div class="option card" data-correspondência="amor">
+                            <img src="imagens/animais/zorrilho.jpg" class="card-img-top" alt="Zorrilho">
+                            <div class="card-body text-center">
+                                <p class="card-text">Zorrilho</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 mb-3">
+                        <div class="option card" data-correspondência="amor">
+                            <img src="imagens/animais/mao-pelada.jpg" class="card-img-top" alt="Mão-pelada">
+                            <div class="card-body text-center">
+                                <p class="card-text">Mão-pelada</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!-- fim pergunta 1-->
+            <div class="question-container mb-4">
+                <h2>Qual comida típica é a sua preferida?</h2>
+                <div class="row">
+                    <div class="col-6 col-sm-4 mb-3">
+                        <div class="option card" data-correspondência="resiliencia">
+                            <img src="imagens/comida/churrasco.jpeg" class="card-img-top" alt="Churrasco">
+                            <div class="card-body text-center">
+                                <p class="card-text">Churrasco</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 mb-3">
+                        <div class="option card" data-correspondência="tempo">
+                            <img src="imagens/comida/arroz-carreteiro.jpg" class="card-img-top" alt="Caminhar">
+                            <div class="card-body text-center">
+                                <p class="card-text">Arroz Carreteiro</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 mb-3">
+                        <div class="option card" data-correspondência="natureza">
+                            <img src="imagens/comida/galeto-brasa.jpg" class="card-img-top" alt="Galeto na brasa">
+                            <div class="card-body text-center">
+                                <p class="card-text">Galeto na brasa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 mb-3">
+                        <div class="option card" data-correspondência="olhar">
+                            <img src="imagens/comida/entrevero-gaucho.jpg" class="card-img-top" alt="Entrevero gaucho">
+                            <div class="card-body text-center">
+                                <p class="card-text">Entrevero gaúcho</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 mb-3">
+                        <div class="option card" data-correspondência="tempo">
+                            <img src="imagens/comida/xis.jpg" class="card-img-top" alt="Xis gaúcho">
+                            <div class="card-body text-center">
+                                <p class="card-text">Xis gaúcho</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 mb-3">
+                        <div class="option card" data-correspondência="amor">
+                            <img src="imagens/comida/cuca.png" class="card-img-top" alt="Cuca">
+                            <div class="card-body text-center">
+                                <p class="card-text">Cuca</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- fim pergunta 2-->
+            <div class="question-container mb-4">
+                <h2>Escolha o que fazer</h2>
+                <div class="row">
+                    <div class="col-6 col-sm-4 mb-3">
+                        <div class="option card" data-correspondência="tempo">
+                            <img src="imagens/atividade/chimarrao.jpg" class="card-img-top" alt="rchimarrão">
+                            <div class="card-body text-center">
+                                <p class="card-text">Tomar chimarrão</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 mb-3">
+                        <div class="option card" data-correspondência="amor">
+                            <img src="imagens/atividade/churrasco.jpg" class="card-img-top" alt="fazer churrasco">
+                            <div class="card-body text-center">
+                                <p class="card-text">Fazer um churrasco</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 mb-3">
+                        <div class="option card" data-correspondência="natureza">
+                            <img src="imagens/atividade/lagartear.jpg" class="card-img-top" alt="lagartear com bergamota">
+                            <div class="card-body text-center">
+                                <p class="card-text">Lagartear com bergamota</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 mb-3">
+                        <div class="option card" data-correspondência="olhar">
+                            <img src="imagens/atividade/piquete.jpg" class="card-img-top" alt="dançar no piquete">
+                            <div class="card-body text-center">
+                                <p class="card-text">Dançar no piquete</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 mb-3">
+                        <div class="option card" data-correspondência="resiliencia">
+                            <img src="imagens/atividade/sestear.jpeg" class="card-img-top" alt="sestear">
+                            <div class="card-body text-center">
+                                <p class="card-text">Sestear</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 mb-3">
+                        <div class="option card" data-correspondência="olhar">
+                            <img src="imagens/musica/gaucha.png" class="card-img-top" alt="gaucha">
+                            <div class="card-body text-center">
+                                <p class="card-text">Aceito dicas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- fim pergunta 3-->
+            
+            <button id="submit" class="btn btn-success w-100" style="display: none;">Ver Resultado</button>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <footer class="text-center mt-5 py-3 bg-light">
+        <p><img src="imagens/logoprogramac.png"  alt="logoprogramac" style="height: 80px";>- Programa de extensão UNIPAMPA</p>
+        <p>&copy; 2024 Universidade Federal do Pampa. Todos os direitos reservados.</p>
+        <p>Av. Tiarajú, 810 - Bairro Ibirapuitã - Alegrete, RS - 97546-550 - Fone +55 55 3421 8400</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
