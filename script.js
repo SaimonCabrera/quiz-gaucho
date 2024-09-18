@@ -66,24 +66,23 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function displayResult(result) {
         const imagens = {
-            "tempo": [
-                "imagens/motus3/Ama.jpg", "imagens/motus3/Ama!2.jpg", "imagens/motus3/Ama! (3).jpg"
+            "a": [
+                "imagens/poemas/1.png", "imagens/poemas/2.png"
             ],
-            "amor": [
-                "imagens/motus2/Ama.jpg", "imagens/motus2/Amorhereditário.jpg", "imagens/motus2/AmorProprio.jpg", "imagens/motus2/AmorProprio2.jpg"
+            "b": [
+                "imagens/poemas/3.png", "imagens/poemas/4.png"
             ],
-            "olhar": [
-                "imagens/motus4/Acapadolivro.jpg", "imagens/motus4/Aintrusa.jpg", "imagens/motus4/Amulherpreta.jpg"
+            "c": [
+                "iimagens/poemas/5.png", "imagens/poemas/6.png"
             ],
-            "resiliencia": [
-                "imagens/motus5/Brincando.jpg", "imagens/motus5/DuasBarras.jpg", "imagens/motus5/edai.jpg", "imagens/motus5/Entreunseoutros.jpg"
+            "d": [
+                "imagens/poemas/7.png"
             ],
-            "natureza": [
-                "imagens/motus6/Aevolução.jpg", "imagens/motus6/Asnovas.jpg", "imagens/motus6/Benedicta.jpg", "imagens/motus6/Corina.jpg"
+            "e": [
+                "imagens/poemas/8.png"
             ],
-            "motus": [
-                "imagens/motus?/.jpg", "imagens/motus?/.jpg"
-                //motus 1 ou 7 ou 8 preciso das imagens
+            "f": [
+                "imagens/poemas/9.png"
             ]
         };
 
